@@ -1,0 +1,42 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobeConnect", "GlobeConnect\GlobeConnect.csproj", "{852D1A11-6132-4F39-A678-3596539BBC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{C1304EC8-D3A7-44DB-B6D7-BC8BC292CFB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{852D1A11-6132-4F39-A678-3596539BBC14}.Debug|x86.ActiveCfg = Debug|x86
+		{852D1A11-6132-4F39-A678-3596539BBC14}.Debug|x86.Build.0 = Debug|x86
+		{852D1A11-6132-4F39-A678-3596539BBC14}.Release|x86.ActiveCfg = Release|x86
+		{852D1A11-6132-4F39-A678-3596539BBC14}.Release|x86.Build.0 = Release|x86
+		{C1304EC8-D3A7-44DB-B6D7-BC8BC292CFB2}.Debug|x86.ActiveCfg = Debug|x86
+		{C1304EC8-D3A7-44DB-B6D7-BC8BC292CFB2}.Debug|x86.Build.0 = Debug|x86
+		{C1304EC8-D3A7-44DB-B6D7-BC8BC292CFB2}.Release|x86.ActiveCfg = Release|x86
+		{C1304EC8-D3A7-44DB-B6D7-BC8BC292CFB2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.NameConventionPolicy = $1
+		$1.Rules = $2
+		$2.NamingRule = $3
+		$3.Name = Type Parameters
+		$3.AffectedEntity = TypeParameter
+		$3.VisibilityMask = VisibilityMask
+		$3.NamingStyle = PascalCase
+		$3.IncludeInstanceMembers = True
+		$3.IncludeStaticEntities = True
+		$3.RequiredPrefixes = $4
+		$4.String = T
+		$3.RequiredSuffixes = $5
+		$5.String = Exception
+		$0.StandardHeader = $6
+		$6.Text = @\n${FileName}\n \nAuthor:\n      ${AuthorName} <${AuthorEmail}>\n\nCopyright (c) ${Year} ${CopyrightHolder}\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.
+		$6.IncludeInNewFiles = True
+	EndGlobalSection
+EndGlobal
