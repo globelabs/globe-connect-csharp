@@ -1,4 +1,4 @@
-# Globe Connect for C#
+# Globe Connect for CS
 
 ## Introduction
 Globe Connect for C# provides an implementation of Globe APIs e.g Authentication, Amax,
