@@ -102,6 +102,7 @@
     <Compile Include="Controllers\TransferController.cs" />
     <Compile Include="Controllers\TransferWhisperController.cs" />
     <Compile Include="Controllers\WaitController.cs" />
+    <Compile Include="Controllers\SmsReceivingController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

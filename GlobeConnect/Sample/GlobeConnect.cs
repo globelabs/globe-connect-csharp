@@ -27,7 +27,7 @@ namespace Sample
 			TestHttpRequest();
 
 			// test authentication
-			//TestAuthentication();
+			TestAuthentication();
 
 			//test sms
 			//TestSms();
@@ -51,7 +51,7 @@ namespace Sample
 			//TestAmax();
 
 			// test voice
-			TestVoice();
+			//TestVoice();
 		}
 
 		static void TestHttpRequest()
@@ -92,7 +92,7 @@ namespace Sample
 			Console.WriteLine("Get dialog url:");
 			Console.WriteLine(auth.GetDialogUrl());
 			
-			string code = "G4HBMexKfaM9E7SG4LpkHRBoLGf9Go6qSnBno8HRKXnes7doqEukgq4bCq59nKfR7KX6Uorknysa8EXyHoxEaRhzGo57tLn4gduLkaE7S9ke9RtpBjgauaeRKpu4RcoX6y4cRaxuGzjkKuyzedXtkra8qSbe47LueyonxtgoEorhpkEoaHLkkResXyKR4U4K996f4EqB7CRLoKGuBjXorsAxnrpH9poqrSAEo6ef7XLGXHyK9R9SLregxfaM6XxH";
+			string code = "kpfEdxMAFXx7MpF7xj8nfb67kKSKrMG6uRq89dhxg5zyUpdjyntX54GeUoqaAxIBX6krhjaE9rsKbrbEtoXL6dfLz4ApSG7Ar8fLGkgxf8LeLoI4yKKdsRXBpLuX8i78oo6iBpKu5qKgksqMe4qInekELf9dAqEfBr4pkSe7Lgkfeqrqbt69EgEskB6ybh8zaayIrA4yeUxnjMdt4558LUBe8keh7bMneuzb7BzSb6jyjfbg765F4BxdGF6gxEdf";
 			
 			Console.WriteLine("Get access token:");
 			Console.WriteLine(auth.GetAccessToken(code).GetDynamicResponse());
