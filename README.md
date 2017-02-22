@@ -1549,7 +1549,7 @@ Console.WriteLine(response);
 
 #### Overview
 
-TODO
+Subscriber Data Query API interface allows a Web application to query the customer profile of an end user who is the customer of a mobile network operator.
 
 #### Subscriber Balance
 
